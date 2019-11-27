@@ -311,22 +311,66 @@
 # for index in range(len(friends)):
 #     print(friends[index])
                                     #    ASSIGNMENT 1
-import random 
-for x in range(2):
-   print(random.randint(1,6))
-if random.randint is (6,6) is True:
-    print("you win")
-else:
-    print("try again")
-                            #   ASSIGNMENT 2
-three_friends = ["bola", "chisom", "james"]
-no_of_friends = (len(three_friends))
-candies = int(input("number of candies:"))
-a =int(candies/no_of_friends)
-remainder = int(candies % 3)
-statement = f' number of candy to be shared is : {a}\n number of candies to be crushed : {remainder}'
-print(statement)
-            #   ASSIGNMENT 3
+# import random 
+# for x in range(2):
+#    print(random.randint(1,6))
+# if random.randint is (6,6) is True:
+#     print("you win")
+# else:
+#     print("try again")
+#                             #   ASSIGNMENT 2
+# three_friends = ["bola", "chisom", "james"]
+# no_of_friends = (len(three_friends))
+# candies = int(input("number of candies:"))
+# a =int(candies/no_of_friends)
+# remainder = int(candies % 3)
+# statement = f' number of candy to be shared is : {a}\n number of candies to be crushed : {remainder}'
+# print(statement)
+            #   ASSIGNMEN
 
-names_1 = [ ]
+
+health = input('answer with yes or no, are you okay:')
+if health == 'yes':
+     print('get a life')
+    
+else: 
+    question_2= str(input('answer with yes or no, do you have pains:'))
+    print(question_2)
+     
+    if question_2 == 'yes':
+           question_3 =input('answer with yes or no, did you sleep well:')
+           print('question_3')
+    
+    else:
+        print('unable to diagnose now')
+
+    
+   
+        if question_3== 'No':
+           print('try to sleep')
+
+        else:
+            question_4 = input('answer with yes or no, have you done hard work:')
+            print('question_4')
+            if question_4 == 'yes':
+               print('have some pain killer')
+
+            else:
+                question_5 =input('answer with yes or no, do you have a fever:')
+                print('question_5')
+
+
+                if question_5 == "no":
+                   print("inconclusive phase see a doctor")
+
+                else:
+                    question_6 =input("answer with yes or no : are you vomitting:")
+                    print("question_6")
+
+                    if question_6 == "yes":
+                       print("please see doctor")
+
+                    else:
+                        print("take some antimaleria")
+
     
