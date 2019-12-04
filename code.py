@@ -329,48 +329,113 @@
             #   ASSIGNMEN
 
 
-health = input('answer with yes or no, are you okay:')
-if health == 'yes':
-     print('get a life')
+# health = input('answer with yes or no, are you okay:')
+# if health == 'yes':
+#      print('get a life')
     
-else: 
-    question_2= str(input('answer with yes or no, do you have pains:'))
-    print(question_2)
+# else: 
+#     question_2= str(input('answer with yes or no, do you have pains:'))
+#     print(question_2)
      
-    if question_2 == 'yes':
-           question_3 =input('answer with yes or no, did you sleep well:')
-           print('question_3')
-    
-    else:
-        print('unable to diagnose now')
+#     if question_2 == 'no':
+#         print('unable to diagnose now') 
+#     else:
+#         question_3 = input('answer with yes or no, did you sleep well:')
+#         print(question_3)
 
-    
-   
-        if question_3== 'No':
-           print('try to sleep')
+#         if question_3 == 'no':
+#            print('try to sleep')
 
-        else:
-            question_4 = input('answer with yes or no, have you done hard work:')
-            print('question_4')
-            if question_4 == 'yes':
-               print('have some pain killer')
+#         else:
+#             question_4 = input('answer with yes or no, have you done hard work:')
+#             print(question_4)
+            
+#             if question_4 == 'yes':
+#                print('have some pain killer')
 
-            else:
-                question_5 =input('answer with yes or no, do you have a fever:')
-                print('question_5')
+#             else:
+#                 question_5 =input('answer with yes or no, do you have a fever:')
+#                 print(question_5)
 
 
-                if question_5 == "no":
-                   print("inconclusive phase see a doctor")
+#                 if question_5 == "no":
+#                    print("inconclusive phase see a doctor")
 
-                else:
-                    question_6 =input("answer with yes or no : are you vomitting:")
-                    print("question_6")
+#                 else:
+#                     question_6 =input("answer with yes or no : are you vomitting:")
+#                     print(question_6)
 
-                    if question_6 == "yes":
-                       print("please see doctor")
+#                     if question_6 == "yes":
+#                        print("please see doctor")
 
-                    else:
-                        print("take some antimaleria")
+#                     else:
+#                         print("take some antimaleria")
 
-    
+# a = ['foo', 'bar', 'baz']
+# for i in a:
+#     print(i)
+
+# for i in range (200):
+#     # print(i)
+#     mean = sum(range(20))/ len(range(20))
+#     # print(mean)
+    # print(i,i-mean)
+
+# print("x","|","x-x-bar")
+# print('_','|','_____')
+# mean = sum(range(5))/ len(range(5))
+
+# for i in range (5):
+#     print(i,"|",i-mean)
+
+# print("x".center(4),"|","x-mean".center(9),"|","(x-mean)**2".center(15), sep="")
+# print('____'.center(4),'|','_________'.center(9),'|','_______________'.center(15), sep="")
+# n=7
+# mean = sum(range(n))/ len(range(n))
+# for i in range (n):
+#     print(f"{i}".center(4),"|",f"{i-mean}".center(9),"|",f"{(i-mean)**2}".center(15), sep="")
+
+# names= ["john", "clam"]
+# for i in names:
+#     print("hello,",i)
+
+# vowel = ('a','e','i','o','u')
+# word= input('write a word:')
+# total_vowels = 0
+# for letter in (vowel_sounds):
+#     if letter in word:
+#         print(letter)
+#         total_vowels = total_vowels + 1
+
+# print(f"total_vowels : {total_vowels}")
+
+
+# print(f"vowel    |  count")
+# print(f"_________|_________")
+# total_vowels = 0
+# for vowel in vowel:
+#     if vowel in word:
+
+#     # print(vowel)
+#        count = word.count(vowel)
+#        total_vowel = total_vowels + count
+#        print(f"{vowel.center(9)} | {str(count).center(9)}")
+
+# print(f"total_vowels : {total_vowels}")
+# for i in word:
+#     print(i)
+#     if i == "?":
+
+
+
+#         break
+
+# filename = "twist.txt"
+# mode = "r" #read mode open
+# data = open(filename, mode)
+filename = "twist.txt"
+mode = "r" #read mode open
+data = open(filename, mode)
+words = data.read()
+for index in range(len(words)):
+    print(words[4])
